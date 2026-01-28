@@ -44,23 +44,30 @@ Strict separation between the **View** (Pixels), **ViewModel** (Logic), and **Mo
 # Project Structure
 ```text
 lib/
-├── app/
-│   ├── config/          # Environment Setup & Global Config
-│   └── di/              # AppInjector (Centralized Dependency Injection)
-├── features/            # Scalable Feature-First Modules
-│   └── login/
-│       ├── api/         # Remote Data Sources & Endpoints
-│       ├── model/       # Data Entities & Response Models
-│       ├── validation/  # Business Logic & Form Validation
-│       ├── view/        # Clean UI (Independent of State Framework)
-│       └── viewmodel/   # Abstract State Logic & Interface Contracts
-├── service/             # Core Engine: Dio Networking & ApiResult Wrappers
-├── state_impl/          # The Agnostic Layer (Interchangeable State Engines)
-│   ├── bloc/            # BLoC implementation of Feature Interfaces
-│   ├── getx/            # GetX implementation of Feature Interfaces
-│   ├── provider/        # Provider implementation of Feature Interfaces
-│   └── riverpod/        # Riverpod implementation of Feature Interfaces
-└── utils/               # Atomic Helpers, Constants & Extensions
+├── aarik_kernel/              # 💎 THE CORE ENGINE (Immutable)
+│   ├── contracts/             # Abstract interfaces (IApiService, IBackgroundService)
+│   ├── di/                    # Dependency Registry & Service Locator (sl)
+│   ├── infrastructure/        # Swappable Implementations (DioService, WorkmanagerService)
+│   └── network/               # Generic Dio Wrappers & ApiResult handlers
+│
+├── features/                  # 🚀 DOMAIN LOGIC (Feature-First)
+│   └── auth/                  # Example Feature
+│       ├── data/              # Models, Data Sources & Mappers
+│       ├── domain/            # Business Rules & Logic Interfaces
+│       ├── presentation/      # UI (Pixels) & State Logic
+│       └── aarik_bindings.dart # Feature-specific Registry link
+│
+├── state_engines/             # 🧠 THE AGNOSTIC LAYER (Framework Implementations)
+│   ├── bloc_impl/             # BLoC versions of Feature Interfaces
+│   ├── getx_impl/             # GetX versions of Feature Interfaces
+│   └── provider_impl/         # Provider versions of Feature Interfaces
+│
+├── shared/                    # 🛠️ UTILITIES
+│   ├── constants/             # App Strings, Dimensions, API Keys
+│   ├── themes/                # Global Styling & UI Kits
+│   └── widgets/               # Atomic/Reusable UI Components
+│
+└── main.dart                  # The Entry Point (AARIK Initialization)
 ```
 
 # How to Use
