@@ -14,14 +14,13 @@ A professional-grade, production-ready Flutter foundation built for teams that d
 Most Flutter projects are built around a state management library (GetX, BLoC, etc.). If the library dies, the project dies. **AARIK** flips the script. By using **Interface-Driven Design**, the UI remains "blind" to the underlying state management, allowing you to switch engines via a single configuration toggle.
 
 ## 💎 The AARIK Kernel
-At the heart of this architecture lies the **Agnostic Async Registry & Infrastructure Kernel (AARIK)**. It defines the indestructible set of rules that governs how the system behaves:
+At the heart of this architecture lies the **Agnostic Async Registry & Infrastructure Kernel**. Here is how it works in plain terms:
 
-* **Agnostic:** Business logic is decoupled from third-party packages. Swap internal tools (like Workmanager or Dio) without refactoring the core.
-* **Async:** Engineered for a "Disconnected-First" world, mastering background isolates and deferred execution (e.g., triggering tasks only when internet returns).
-* **Registry:** The system's "Brain" uses a centralized Service Locator (`sl`) and Dependency Registry to ensure clean lifecycle management.
-* **Infrastructure:** External dependencies (Networking, Database, Background Workers) are treated as swappable outer layers that serve the core.
-* **Kernel:** The minimal, high-performance engine that maintains system integrity regardless of UI or State changes.
-
+* **Agnostic (Plug-and-Play):** Keeps your logic independent. Switch packages without refactoring your whole app.
+* **Async (Background Hero):** Masters Isolates and Task-Queuing to keep the UI smooth and background tasks reliable.
+* **Registry (Service Orchestrator):** A central "Brain" (`sl`) that manages all your objects and prevents memory leaks.
+* **Infrastructure (The Shield):** Handles the "dirty work" of APIs and hardware, passing only clean data to your logic.
+* **Kernel (The Foundation):** The core rules that make switching state management (BLoC/GetX/Riverpod) effortless.
 ---
 
 ## 🚀 Key Features
