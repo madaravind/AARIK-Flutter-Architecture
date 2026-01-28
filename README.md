@@ -103,14 +103,18 @@ With deep expertise in **Clean Architecture** and **SOLID principles**, Aravind 
 **Mission**
 "My goal is to bridge the gap between rapid feature delivery and long-term code quality. I build systems that allow developers to focus on creativity while the architecture handles the complexity."
 
-# Connect with me
-
-<p align="start"> <a href="https://www.linkedin.com/in/madaravind"><img src="https://www.google.com/search?q=https://img.shields.io/badge/LinkedIn-0077B5%3Fstyle%3Dfor-the-badge%26logo%3Dlinkedin%26logoColor%3Dwhite" /></a> <a href="https://medium.com/@madaravind"><img src="https://www.google.com/search?q=https://img.shields.io/badge/Medium-12100E%3Fstyle%3Dfor-the-badge%26logo%3Dmedium%26logoColor%3Dwhite" /></a> </p>
+## 🔗 Connect with Me
 
 <p align="start">
-  <b>Developed by Aravind</b><br>
-  <i>Senior Flutter Engineer & Mobile Architect</i>
+<a href="https://www.linkedin.com/in/madaravind">
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+</a>
+<a href="https://medium.com/@madaravind">
+  <img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" />
+</a>
 </p>
+
+**Developed by Aravind** *Senior Flutter Engineer & Mobile Architect*
 
 LinkedIn: [linkedin.com/in/madaravind](https://www.linkedin.com/in/madaravind)  
 Medium: [medium.com/@madaravind](https://medium.com/@madaravind)
