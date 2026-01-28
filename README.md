@@ -1,7 +1,14 @@
-# Flutter Agnostic Architecture (Enterprise Scalable Mobile Systems)
-**Developed and Created by: Aravind**
+# AARIK: Flutter Agnostic Architecture
+### Enterprise Scalable Mobile Systems
+**Developed and Created by: [Aravind](https://www.linkedin.com/in/madaravind)**
+
+![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white)
+![License](https://img.shields.io/badge/License-Proprietary-red.svg?style=for-the-badge)
 
 A professional-grade, production-ready Flutter foundation built for teams that demand high scalability, strict decoupling, and zero vendor lock-in. This is not just a template; it is a **Software Engineering Engine.**
+
+---
 
 # The Philosophy: "State as a Detail"
 Most Flutter projects are built around a state management library (GetX, BLoC, etc.). If the library dies, the project dies. **Flutter Agnostic Arch** flips the script. By using **Interface-Driven Design**, the UI remains "blind" to the underlying state management, allowing you to switch engines via a single configuration toggle.
