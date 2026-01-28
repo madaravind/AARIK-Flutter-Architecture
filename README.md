@@ -10,8 +10,8 @@ A professional-grade, production-ready Flutter foundation built for teams that d
 
 ---
 
-# The Philosophy: "State as a Detail"
-Most Flutter projects are built around a state management library (GetX, BLoC, etc.). If the library dies, the project dies. **Flutter Agnostic Arch** flips the script. By using **Interface-Driven Design**, the UI remains "blind" to the underlying state management, allowing you to switch engines via a single configuration toggle.
+## 🏛️ The Philosophy: "State as a Detail"
+Most Flutter projects are built around a state management library (GetX, BLoC, etc.). If the library dies, the project dies. **AARIK** flips the script. By using **Interface-Driven Design**, the UI remains "blind" to the underlying state management, allowing you to switch engines via a single configuration toggle.
 
 # Key Features
 
