@@ -1,4 +1,4 @@
-# Flutter Agnostic Architecture (Enterprise Scaffold)
+# Flutter Agnostic Architecture (Enterprise Scalable Mobile Systems)
 **Developed and Created by: Aravind**
 
 A professional-grade, production-ready Flutter foundation built for teams that demand high scalability, strict decoupling, and zero vendor lock-in. This is not just a template; it is a **Software Engineering Engine.**
