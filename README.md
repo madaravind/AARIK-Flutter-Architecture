@@ -44,6 +44,33 @@ At the heart of this architecture lies the **Agnostic Async Registry & Infrastru
 
 ---
 
+## 🚫 When NOT to Use AARIK
+
+AARIK may not be the best choice if:
+- You are building a very small MVP or demo app
+- The app lifecycle is short-lived
+- The team is unfamiliar with architectural patterns and DI
+- Rapid prototyping is more important than long-term maintainability
+
+---
+
+## 🔄 Comparison Example: Switching State Management
+
+### Traditional Approach
+Switching from GetX to BLoC requires:
+- Rewriting UI widgets
+- Refactoring controllers/blocs
+- Updating dependency wiring
+- Retesting UI flows
+
+### With AARIK
+Switching state management requires:
+- Replacing the state adapter
+- Updating injector configuration
+- No UI or business logic changes
+
+---
+
 ## 🚀 Key Features
 
 ### 1. Multi-State Engine (Agnostic Design)
