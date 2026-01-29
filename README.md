@@ -71,23 +71,6 @@ Switching state management requires:
 
 ---
 
-## 🔄 Comparison Example: Switching State Management
-
-### Traditional Approach
-Switching from GetX to BLoC requires:
-- Rewriting UI widgets
-- Refactoring controllers/blocs
-- Updating dependency wiring
-- Retesting UI flows
-
-### With AARIK
-Switching state management requires:
-- Replacing the state adapter
-- Updating injector configuration
-- No UI or business logic changes
-
----
-
 ## 🔒 Architecture Guarantees
 
 AARIK guarantees:
